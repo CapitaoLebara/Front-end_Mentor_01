@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0D1A2D;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+}
+.container{
+    width:21rem;
+    height: 34rem;
+    background:#16263F;
+    border-radius:1rem ;
+    margin-top:40px;
+}
+.conte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imag{
+    width: 286px;
+    height: 286px;
+    border-radius:0.5rem;
+    margin-top:23px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.ds{
+    width: 286px;
+    height: 286px;
+    border-radius:0.5rem;
+    margin-top:-115px;
+    margin-left: 25px;
+    background:#00a0b8;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:0.5s;
+}
+.ds img{
+    color:white;
+}
+.ds:hover{
+    opacity:0.5;
+}
+h2{
+    font-size:1.3rem;
+    color: #FFFEFF;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+.conte h3{
+    color: hsl(0, 0%, 100%, 60%);
+    font-weight:300;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px;
+    line-height:30px;
+
+}
+ul{
+    list-style: none;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%, 60%);
+    padding: 0 1rem;
+    margin-top: 10px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+}
+ul li:nth-child(1){
+    color: #08AEB3;
+    font-weight: bold;
+
+}
+
+ul li img{
+    margin-right: 0.4rem;
+}
+
+hr{
+    background:hsl(0, 0%, 100%, 60%);
+    width: 270px;
+    height: 1px;
+    border: 1px solid hsl(0, 0%, 100%, 60%);
+    opacity: 0.2;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.dk img{
+    position: relative;
+    top: 37px;
+    left: 26px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;;
+}
+.dk h6{
+    position: relative;
+    left: 90px;
+    top: 6px;
+    font-size:0.8rem;
+    color:hsl(0, 0%, 100%, 60%);
+}
+.dk h6 span{
+    color: white;
+}
+.attribution{
+    color: hsl(0, 0%, 100%, 60%);
+    margin: 20px;
+}
